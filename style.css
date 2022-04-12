@@ -1,0 +1,37 @@
+*{ /* * FOR STANDARDIZE THE WHOLE PAGE*/
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    box-sizing: border-box; 
+    flex-direction: row;  /*IS THE DEFAULT*/
+    background-color: black;
+    flex-wrap: wrap;  /*: NOWRAP IS THE DEFAULT*/
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;  /* VERTICAL ALIGNMENT*/
+    justify-content: center;  /*HORIZONTAL ALIGNMENT*/
+    color: white;  /*CHANGE THE COLOR OF THE TEXT ON BOX*/
+}
+.Item1{
+    width: 100px;  /*HORIZONTAL DIMENSION*/
+    height: 100px;  /*VERTICAL DIMENSION*/
+    background-color: blue;
+    border: 2px solid white; /*SIZE FORMAT COLOR*/
+}
+.Item2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid white;
+}
+.Item3{
+    width: 100px;
+    height: 100px;   
+    border: 2px solid white;
+    background-color: green;
+}
+
